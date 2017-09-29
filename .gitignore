@@ -1,0 +1,7 @@
+npm-debug.log
+node_modules
+x-shared/**/*.js.map
+x-shared/app/**/*.js
+x-shared/**/*.css
+typings
+!x-shared/typings

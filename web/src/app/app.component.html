@@ -1,0 +1,15 @@
+<div class="top-bar">
+  <div class="title">
+    <h1>Groceries</h1>
+  </div>
+  
+  <div class="logoff" [hidden]="!_loginService.isLoggedIn()">
+    <button class="btn btn-danger" (click)="logoff()">
+      <img src="./assets/exit.png" alt="Exit">
+    </button>
+  </div>
+</div>
+
+<div class="content-container">
+  <router-outlet></router-outlet>
+</div>

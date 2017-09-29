@@ -1,0 +1,48 @@
+@import '../../scss/variables';
+
+input {
+  display: block;
+  width: 100%;
+}
+img[src*=gif] {
+  height: 50px;
+}
+
+.avatar {
+  position: relative;
+  display: block;
+  margin-bottom: 1.5em;
+}
+
+.avatar img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 100%;
+  background-color: $c-background;
+  box-shadow: 0 0 0 1.5em $c-background;
+}
+
+.avatar:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  z-index: -1;
+  background: $c-secondary-border;
+}
+
+@media screen and (max-width: 480px) {
+  .login-page, .list-page {
+    max-width: 95%;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  .avatar:before {
+    left: 0;
+    width: 100%;
+  }
+}

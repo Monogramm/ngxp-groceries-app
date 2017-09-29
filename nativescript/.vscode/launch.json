@@ -1,0 +1,47 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch on iOS",
+            "type": "nativescript",
+            "platform": "ios",
+            "request": "launch",
+            "appRoot": "${workspaceRoot}",
+            "sourceMaps": true,
+            "diagnosticLogging": false,
+            "watch": false
+        },
+        {
+            "name": "Attach on iOS",
+            "type": "nativescript",
+            "platform": "ios",
+            "request": "attach",
+            "appRoot": "${workspaceRoot}",
+            "sourceMaps": true,
+            "diagnosticLogging": false,
+            "watch": false
+        },
+        {
+            "name": "Launch on Android",
+            "type": "nativescript",
+            "platform": "android",
+            "request": "launch",
+            "appRoot": "${workspaceRoot}",
+            "sourceMaps": true,
+            "diagnosticLogging": false,
+            "watch": true,
+            "tnsArgs": ["--log=trace"]
+        },
+        {
+            "name": "Attach on Android",
+            "type": "nativescript",
+            "platform": "android",
+            "request": "attach",
+            "appRoot": "${workspaceRoot}",
+            "sourceMaps": true,
+            "diagnosticLogging": false,
+            "watch": false,
+            "tnsArgs": ["--log=trace"]
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+<ul>
+    <li *ngFor="let grocery of store.items | async | itemStatus:showDeleted">
+    <img
+        [src]="imageSource(grocery)"
+        (click)="toggleDone(grocery)">
+    <span
+        [class.done]="grocery.done && !grocery.deleted">{{ grocery.name }}</span>
+    <button
+        *ngIf="!grocery.deleted && !grocery.deleting"
+        (click)="delete(grocery)">&times;</button>
+    <img
+        *ngIf="!grocery.deleted && grocery.deleting"
+        src="./assets/loading.gif">
+    </li>
+</ul>

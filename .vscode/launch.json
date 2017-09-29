@@ -1,0 +1,62 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch Chrome",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:4200",
+            "webRoot": "${workspaceRoot}"
+        },
+        {
+            "type": "chrome",
+            "request": "attach",
+            "name": "Attach to Chrome",
+            "port": 9222,
+            "webRoot": "${workspaceRoot}/web"
+        },
+        // The following commands won't work due to issue #104
+        // https://github.com/NativeScript/nativescript-vscode-extension/issues/104
+        // Workaround is to open the nativescript folder and run debug from their...
+        {
+            "name": "Launch on iOS",
+            "type": "nativescript",
+            "platform": "ios",
+            "request": "launch",
+            "appRoot": "${workspaceRoot}",
+            "sourceMaps": true,
+            "diagnosticLogging": false,
+            "watch": false
+        },
+        {
+            "name": "Attach on iOS",
+            "type": "nativescript",
+            "platform": "ios",
+            "request": "attach",
+            "appRoot": "${workspaceRoot}",
+            "sourceMaps": true,
+            "diagnosticLogging": false,
+            "watch": false
+        },
+        {
+            "name": "Launch on Android",
+            "type": "nativescript",
+            "platform": "android",
+            "request": "launch",
+            "appRoot": "${workspaceRoot}",
+            "sourceMaps": true,
+            "diagnosticLogging": false,
+            "watch": true
+        },
+        {
+            "name": "Attach on Android",
+            "type": "nativescript",
+            "platform": "android",
+            "request": "attach",
+            "appRoot": "${workspaceRoot}",
+            "sourceMaps": true,
+            "diagnosticLogging": false,
+            "watch": false
+        }
+    ]
+}
