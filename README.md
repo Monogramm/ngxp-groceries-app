@@ -1,6 +1,12 @@
 # NGXP Groceries App
 Groceries application for Web and Mobile (Android, iOS) with single code base buit with Angular and Nativescript. 
 
+Groceries is a NativeScript and Angular built iOS, Android and Web app for managing grocery lists.
+
+The app comes from the idea to merge the official Nativescript tutorial application [sample-Groceries](https://github.com/NativeScript/sample-Groceries) with the awesome [NGXP](https://ngxp.io/) concept.
+
+You can learn how to build the Nativescript version of this app from scratch using either Nativescript's [JavaScript getting started guide](http://docs.nativescript.org/tutorial/chapter-0), or Nativescript's [TypeScript and Angular getting started guide](http://docs.nativescript.org/angular/tutorial/ng-chapter-0).
+
 If you want to create your own cross-platform app similar to this, check this starter: [nativescript-angular-web-starter](https://github.com/shripalsoni04/nativescript-angular-web-starter).
 
 ## Previews and Screenshots
@@ -22,7 +28,7 @@ If you want to create your own cross-platform app similar to this, check this st
 3. Mac OS to build iOS app.
 
 ## Installation
-1. `git clone https://github.com/monogramm/ngxp-groceries-app.git`
+1. `git clone https://github.com/Monogramm/ngxp-groceries-app.git`
 2. `cd ngxp-groceries-app`
 3. `npm run ngxp-install`
 

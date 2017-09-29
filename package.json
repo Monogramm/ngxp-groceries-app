@@ -6,12 +6,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/monogramm/ngxp-groceries-app.git"
+    "url": "https://github.com/Monogramm/ngxp-groceries-app.git"
   },
   "bugs": {
-    "url": "https://github.com/monogramm/ngxp-groceries-app/issues"
+    "url": "https://github.com/Monogramm/ngxp-groceries-app/issues"
   },
-  "homepage": "https://github.com/monogramm/ngxp-groceries-app/groceries",
+  "homepage": "https://github.com/Monogramm/ngxp-groceries-app/groceries",
   "keywords": [
     "nativescript",
     "angular4",
